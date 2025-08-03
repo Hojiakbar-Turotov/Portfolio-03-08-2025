@@ -27,7 +27,9 @@ export const Hero = () => {
                     <BsFacebook size={50} className="p-1 border-4 hover:border-indigo-800 rounded-full" />
                     <BsInstagram size={50} className="p-1 border-4 hover:border-indigo-800 rounded-full"/>
                     <BsTelephone size={50} className="p-1 border-4 hover:border-indigo-800 rounded-full"/>
-                    <BsTelegram size={50} className="p-1 border-4 hover:border-indigo-800 rounded-full"/>
+                    <a href="https://t.me/hojiakbar_frondEnd">
+                        <BsTelegram size={50} className="p-1 border-4 hover:border-indigo-800 rounded-full"/>
+                    </a>
                 </div>
             </div>
         </section>
