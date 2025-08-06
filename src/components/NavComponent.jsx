@@ -39,9 +39,9 @@ export const Nav = () => {
                 {toggle ? (
                     <div className="flex justify-between ml-10">
                         <ul>
-                            <li className="text-white mb-2 text-xl cursor-pointer">Skills</li>
-                            <li className="text-white mb-2 text-xl cursor-pointer">Prejects</li>
-                            <li className="text-white mb-2 text-xl cursor-pointer">Testimonials</li>
+                            <li className="text-white mb-2 text-xl cursor-pointer"><a href="#">Skills</a></li>
+                            <li className="text-white mb-2 text-xl cursor-pointer"><a href="#project">Projects</a></li>
+                            <li className="text-white mb-2 text-xl cursor-pointer"><a href="testimonial">Testimonials</a></li>
                         </ul>
                     </div>
                 ) : (<></>)}
