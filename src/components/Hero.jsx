@@ -3,19 +3,19 @@ import HeroPic from "../assets/girl.jpg"
 
 export const Hero = () => {
     return (
-        <section className="flex justify-around items-center p-10 space-x-10 lg:flex-row sm:flex-col sm:space-y-10 text-white">
-            <div className="lg:w-1/3 sm:w-fit">
+        <section className="flex justify-around items-center p-10 space-x-10 lg:flex-row flex-col space-y-10 text-white">
+            <div className="lg:w-1/3 w-fit">
                 <p className="text-4xl mb-5 text-slate-300">I'm</p>
-                <h1 className="text-6xl ">Hojiakbar Turatov</h1>
+                <h1 className="text-6xl uppercase">Hojiakbar Turatov</h1>
                 <hr />
                 <p className="mt-10 text-xl text-slate-300 font-sans">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolore adipisci debitis vel quidem amet quod quas modi unde accusantium dolor commodi voluptate consequuntur quos blanditiis, placeat nesciunt incidunt culpa autem. Dolor cupiditate eos necessitatibus iste soluta labore eius.
                 </p>
             </div>
-            <div className="w-1/3 items-center sm:w-fit">
+            <div className="lg:w-1/3 items-center w-fit">
                 <img src={HeroPic} alt="" width={250} height={250} className="rounded-full w-full border-8 border-white" />
             </div>
-            <div className="w-1/3 sm:w-fit">
+            <div className="lg:w-1/3 w-fit">
                 <p className="text-4xl mb-4">About Me</p>
                 <p className="text-slate-300">
                     Let's build quality in programming ad design with our services

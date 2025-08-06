@@ -2,11 +2,11 @@ import Project1 from "../assets/Project1.png"
 
 export default function Testimonial() {
     return (
-        <div className="bg-indigo-800 m-20 rounded-md">
+        <div className="bg-indigo-800 m-20 rounded-md" id="testimonial">
             <div className='grid justify-items-center m-10'>
                 <h1 className='text-3xl text-white mt-10'>Testimonial</h1>
             </div>
-            <div className="flex sm:flex-col lg:flex-row ">
+            <div className="flex flex-col lg:flex-row ">
                 <div className="relative rounded-xl overflow-auto p-8 hover:animate-pulse ">
                     <div className="overflow-hidden relative max-w-md mx-auto bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img
