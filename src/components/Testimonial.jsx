@@ -2,7 +2,7 @@ import Project1 from "../assets/Project1.png"
 
 export default function Testimonial() {
     return (
-        <div className="bg-indigo-800 m-20 rounded-md" id="testimonial">
+        <div className="bg-indigo-800 m-5 md:m-20 rounded-md" id="testimonial">
             <div className='grid justify-items-center m-10'>
                 <h1 className='text-3xl text-white mt-10'>Testimonial</h1>
             </div>

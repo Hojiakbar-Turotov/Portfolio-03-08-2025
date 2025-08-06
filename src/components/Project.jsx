@@ -2,7 +2,7 @@ import Project1 from "../assets/Project1.png"
 export default function Project() {
     return (
         <>
-            <div className='bg-indigo-800 m-20 max-w-full' id="project">
+            <div className='bg-indigo-800 m-5 md:m-20 max-w-full' id="project">
                 <div className='grid justify-items-center m-10'>
                     <h1 className='text-3xl text-white mt-10'>Projects</h1>
                 </div>
